@@ -1,0 +1,16 @@
+              precision    recall  f1-score   support
+
+      Renoir       0.00      0.00      0.00        99
+     Matisse       0.00      0.00      0.00        99
+    Pissarro       0.00      0.00      0.00        99
+      Hassam       0.00      0.00      0.00        99
+     VanGogh       0.00      0.00      0.00        99
+     Sargent       0.00      0.00      0.00        99
+       Degas       0.00      0.00      0.00        99
+       Monet       0.10      1.00      0.18        99
+     Gauguin       0.00      0.00      0.00        99
+     Cezanne       0.00      0.00      0.00        99
+
+    accuracy                           0.10       990
+   macro avg       0.01      0.10      0.02       990
+weighted avg       0.01      0.10      0.02       990
