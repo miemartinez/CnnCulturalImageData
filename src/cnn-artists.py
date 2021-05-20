@@ -78,7 +78,7 @@ ap.add_argument("-b", "--batch_size",
 
 ap.add_argument("-o", "--optimizer",
                 required = False,
-                help = "Model optimizer, choose between: 'adam' and 'sgd'")               
+                help = "Model optimizer, choose between: 'adam' and 'sgd'",               
                 default = "sgd")
     
 # Parse arguments
@@ -407,10 +407,10 @@ class CNN_artists:
     
 
         # Defining optimizer as stochastic gradient descent with a learning rate of 0.01
-        if self.optimizer = sgd:
+        if self.optimizer == 'sgd':
             opt = SGD(lr=0.01)
         # or as adam with default setting of learning rate 0.0001
-        elif self.optimizer = adam:
+        elif self.optimizer == 'adam':
             opt = Adam
             
             
